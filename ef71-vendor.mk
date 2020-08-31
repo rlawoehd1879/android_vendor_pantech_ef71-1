@@ -144,10 +144,6 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/etc/sound_trigger_mixer_paths_wcd9335.xml:system/etc/sound_trigger_mixer_paths_wcd9335.xml \
     vendor/pantech/ef71/proprietary/etc/surround_sound_3mic/surround_sound_rec_5.1.cfg:system/etc/surround_sound_3mic/surround_sound_rec_5.1.cfg \
     vendor/pantech/ef71/proprietary/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg:system/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg \
-    vendor/pantech/ef71/proprietary/etc/wifi/WCNSS_qcom_cfg.ini:system/etc/wifi/WCNSS_qcom_cfg.ini \
-    vendor/pantech/ef71/proprietary/etc/wifi/fstman.ini:system/etc/wifi/fstman.ini \
-    vendor/pantech/ef71/proprietary/etc/wifi/p2p_supplicant_overlay.conf:system/etc/wifi/p2p_supplicant_overlay.conf \
-    vendor/pantech/ef71/proprietary/etc/wifi/wpa_supplicant_overlay.conf:system/etc/wifi/wpa_supplicant_overlay.conf \
     vendor/pantech/ef71/proprietary/etc/xtra_root_cert.pem:system/etc/xtra_root_cert.pem \
     vendor/pantech/ef71/proprietary/etc/xtwifi.conf:system/etc/xtwifi.conf \
     vendor/pantech/ef71/proprietary/framework/ConnectivityExt.jar:system/framework/ConnectivityExt.jar \
