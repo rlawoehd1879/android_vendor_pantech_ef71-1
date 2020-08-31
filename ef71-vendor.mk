@@ -78,7 +78,6 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/etc/acdbdata/QRD/msm8952-sku2-snd-card/QRD_SKU2_Headset_cal.acdb:system/etc/acdbdata/QRD/msm8952-sku2-snd-card/QRD_SKU2_Headset_cal.acdb \
     vendor/pantech/ef71/proprietary/etc/acdbdata/QRD/msm8952-sku2-snd-card/QRD_SKU2_Speaker_cal.acdb:system/etc/acdbdata/QRD/msm8952-sku2-snd-card/QRD_SKU2_Speaker_cal.acdb \
     vendor/pantech/ef71/proprietary/etc/cacert_location.pem:system/etc/cacert_location.pem \
-    vendor/pantech/ef71/proprietary/etc/camera/camera_config.xml:system/etc/camera/camera_config.xml \
     vendor/pantech/ef71/proprietary/etc/camera/s5k5e2_chromatix.xml:system/etc/camera/s5k5e2_chromatix.xml \
     vendor/pantech/ef71/proprietary/etc/camera/pantech_camera_ws10.xml:system/etc/camera/pantech_camera_ws10.xml \
     vendor/pantech/ef71/proprietary/etc/camera/pantech_camera_tp20.xml:system/etc/camera/pantech_camera_tp20.xml \
@@ -166,6 +165,8 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/lib/libRecoFace.so:system/lib/libRecoFace.so \
     vendor/pantech/ef71/proprietary/lib/libloc_pla.so:system/lib/libloc_pla.so \
     vendor/pantech/ef71/proprietary/lib/libloc_stub.so:system/lib/libloc_stub.so \
+    vendor/pantech/ef71/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
+    vendor/pantech/ef71/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
     vendor/pantech/ef71/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/pantech/ef71/proprietary/lib/libmorpho_memory_allocator.so:system/lib/libmorpho_memory_allocator.so \
     vendor/pantech/ef71/proprietary/lib/libmorpho_panorama.so:system/lib/libmorpho_panorama.so \
@@ -183,6 +184,8 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/lib64/libfpservice.so:system/lib64/libfpservice.so \
     vendor/pantech/ef71/proprietary/lib64/libloc_pla.so:system/lib64/libloc_pla.so \
     vendor/pantech/ef71/proprietary/lib64/libloc_stub.so:system/lib64/libloc_stub.so \
+    vendor/pantech/ef71/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
+    vendor/pantech/ef71/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
     vendor/pantech/ef71/proprietary/lib64/libqti-iop.so:system/lib64/libqti-iop.so \
     vendor/pantech/ef71/proprietary/lib64/libqti_performance.so:system/lib64/libqti_performance.so \
     vendor/pantech/ef71/proprietary/lib64/libstagefright_soft_flacdec.so:system/lib64/libstagefright_soft_flacdec.so \
@@ -1188,6 +1191,7 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/vendor/lib/libswvdec.so:system/vendor/lib/libswvdec.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libtm_interface.so:system/vendor/lib/libtm_interface.so \
+    vendor/pantech/ef71/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libtrueportrait.so:system/vendor/lib/libtrueportrait.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libubifocus.so:system/vendor/lib/libubifocus.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
@@ -1411,6 +1415,7 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/vendor/lib64/libsystem_health_mon.so:system/vendor/lib64/libsystem_health_mon.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/libthermalclient.so:system/vendor/lib64/libthermalclient.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/libthermalioctl.so:system/vendor/lib64/libthermalioctl.so \
+    vendor/pantech/ef71/proprietary/vendor/lib64/libtime_genoff.so:system/vendor/lib64/libtime_genoff.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/libtzdrmgenprov.so:system/vendor/lib64/libtzdrmgenprov.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/libuiblur.so:system/vendor/lib64/libuiblur.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/libulp2.so:system/vendor/lib64/libulp2.so \
@@ -1432,6 +1437,8 @@ PRODUCT_PACKAGES += \
     libloc_api_v02 \
     libloc_ds_api \
     libtime_genoff \
+    libts_detected_face_hal \
+    libts_face_beautify_hal \
     QtiTelephonyService \
     TimeService \
     datastatusnotification \
