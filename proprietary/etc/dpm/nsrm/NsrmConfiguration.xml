@@ -26,6 +26,16 @@
     <!--List of applications which to apply Nsrm to-->
     <AppList Type="Exclusion">
     <AppName>com.whatsapp</AppName>
+<!-- #ifdef FEATURE_SKY_DS_NSRM_EXCLUSION_LIST -->   
+    <AppName>com.android.deskclock</AppName>
+    <AppName>com.pantech.weather.service</AppName>
+    <AppName>com.pantech.app.mms</AppName>	      
+    <AppName>com.pantech.app.vt</AppName>  
+    <AppName>com.skt.prod.dialer</AppName>  
+    <AppName>com.skt.prod.phone</AppName>  
+    <AppName>com.skt.skaf.OA00199800</AppName>
+    <AppName>com.skt.contextplatform</AppName>
+ <!-- #endif FEATURE_SKY_DS_NSRM_EXCLUSION_LIST -->        
     </AppList>
     <!-- Example MCC_MNC configuration
          NTO values are configured in seconds
@@ -60,8 +70,7 @@
     <!-- Minimum connect counts. Range: [0 - 100] -->
     <MinThr>5</MinThr>
 
-    <!-- Time margin to wait before entering learning mode.
-         Default 60s. Range: [1 - 1800] -->
+    <!-- Time margin. Default 60s. Range: [1 - 1800] -->
     <TMargin>60</TMargin>
 
     <!-- Minimum time idle. Default 10 min (600s). Range: [1 - 3600] -->
@@ -70,16 +79,14 @@
     <!-- Time for query. Default 5 min (300s). Range: [60 - 3600] -->
     <TQuery>300</TQuery>
 
-    <!-- Decision made time threshold. If an app gets updated we consider it
-         valid only if it was taken within this threshold value.
-         Default 5 days (432000s). Range: [1 - 31,536,000] -->
+    <!-- Decision made time threshold. Default 5 days (432000s). Range: [1 - 31,536,000] -->
     <TDmThreshold>432000</TDmThreshold>
 
     <!-- Recheck threshold. Default 1.1 Range: [1.0 - 10.0] -->
     <RecheckThr>1.1</RecheckThr>
 
     <!-- Decision made. 0 false, 1 true -->
-    <DNsrmEnable>1</DNsrmEnable>
+    <DNsrmEnable>0</DNsrmEnable>
   </Nsrm>
   <!-- The next element is for reference only to show how to config NSRM
        parameters for another version that may be supported on the device -->
