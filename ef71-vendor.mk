@@ -110,7 +110,10 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/etc/xtra_root_cert.pem:system/etc/xtra_root_cert.pem \
     vendor/pantech/ef71/proprietary/etc/xtwifi.conf:system/etc/xtwifi.conf \
     vendor/pantech/ef71/proprietary/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar \
+    vendor/pantech/ef71/proprietary/framework/QtiTelephonyServicelibrary.jar:system/framework/QtiTelephonyServicelibrary.jar \
     vendor/pantech/ef71/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar \
+    vendor/pantech/ef71/proprietary/framework/embmslibrary.jar:system/framework/embmslibrary.jar \
+    vendor/pantech/ef71/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
     vendor/pantech/ef71/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
     vendor/pantech/ef71/proprietary/lib/libOmxSwVdec.so:system/lib/libOmxSwVdec.so \
     vendor/pantech/ef71/proprietary/lib/libOmxSwVencMpeg4.so:system/lib/libOmxSwVencMpeg4.so \
@@ -727,7 +730,5 @@ PRODUCT_PACKAGES += \
     qcrilhook \
     qti-vzw-ims-internal \
     tcmclient \
-    qdcm_calib_data_hx8394F_HD720p_video_BOE \
-    qdcm_calib_data_ili9881c_HD720p_video_Tianma \
-    qdcm_calib_data_nt35521s_HD720p_video_EBBG
+    embms
 
