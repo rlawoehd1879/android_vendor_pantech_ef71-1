@@ -28,7 +28,6 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/pantech/ef71/proprietary/bin/pm-proxy:system/bin/pm-proxy \
     vendor/pantech/ef71/proprietary/bin/pm-service:system/bin/pm-service \
-    vendor/pantech/ef71/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/pantech/ef71/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/pantech/ef71/proprietary/bin/radish:system/bin/radish \
     vendor/pantech/ef71/proprietary/bin/rmt_storage:system/bin/rmt_storage \
