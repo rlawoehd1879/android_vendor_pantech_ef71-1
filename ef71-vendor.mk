@@ -22,6 +22,10 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/bin/cnss-daemon:system/bin/cnss-daemon \
     vendor/pantech/ef71/proprietary/bin/dpmd:system/bin/dpmd \
     vendor/pantech/ef71/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
+    vendor/pantech/ef71/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
+    vendor/pantech/ef71/proprietary/bin/imscmservice:system/bin/imscmservice \
+    vendor/pantech/ef71/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
+    vendor/pantech/ef71/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
     vendor/pantech/ef71/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/pantech/ef71/proprietary/bin/loc_launcher:system/bin/loc_launcher \
     vendor/pantech/ef71/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
@@ -113,7 +117,9 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/framework/QtiTelephonyServicelibrary.jar:system/framework/QtiTelephonyServicelibrary.jar \
     vendor/pantech/ef71/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar \
     vendor/pantech/ef71/proprietary/framework/embmslibrary.jar:system/framework/embmslibrary.jar \
+    vendor/pantech/ef71/proprietary/framework/imscmlibrary.jar:system/framework/imscmlibrary.jar \
     vendor/pantech/ef71/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
+    vendor/pantech/ef71/proprietary/framework/rcsimssettings.jar:system/framework/rcsimssettings.jar \
     vendor/pantech/ef71/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
     vendor/pantech/ef71/proprietary/lib/libOmxSwVdec.so:system/lib/libOmxSwVdec.so \
     vendor/pantech/ef71/proprietary/lib/libOmxSwVencMpeg4.so:system/lib/libOmxSwVencMpeg4.so \
@@ -147,6 +153,7 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/pantech/ef71/proprietary/vendor/etc/audio_output_policy.conf:system/vendor/etc/audio_output_policy.conf \
     vendor/pantech/ef71/proprietary/vendor/etc/msm_irqbalance.conf:system/vendor/etc/msm_irqbalance.conf \
+    vendor/pantech/ef71/proprietary/vendor/framework/qti-vzw-ims-internal.jar:system/vendor/framework/qti-vzw-ims-internal.jar \
     vendor/pantech/ef71/proprietary/vendor/firmware/libpn548ad_fw.so:system/vendor/firmware/libpn548ad_fw.so \
     vendor/pantech/ef71/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
     vendor/pantech/ef71/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
