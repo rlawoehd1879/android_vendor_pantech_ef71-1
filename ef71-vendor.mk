@@ -47,11 +47,6 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/etc/acdbdata/Headset_cal.acdb:system/etc/acdbdata/Headset_cal.acdb \
     vendor/pantech/ef71/proprietary/etc/acdbdata/Speaker_cal.acdb:system/etc/acdbdata/Speaker_cal.acdb \
     vendor/pantech/ef71/proprietary/etc/cacert_location.pem:system/etc/cacert_location.pem \
-    vendor/pantech/ef71/proprietary/etc/camera/s5k5e2_chromatix.xml:system/etc/camera/s5k5e2_chromatix.xml \
-    vendor/pantech/ef71/proprietary/etc/camera/pantech_camera_ws10.xml:system/etc/camera/pantech_camera_ws10.xml \
-    vendor/pantech/ef71/proprietary/etc/camera/pantech_camera_tp20.xml:system/etc/camera/pantech_camera_tp20.xml \
-    vendor/pantech/ef71/proprietary/etc/camera/pantech_camera_tp10.xml:system/etc/camera/pantech_camera_tp10.xml \
-    vendor/pantech/ef71/proprietary/etc/camera/imx214_chromatix.xml:system/etc/camera/imx214_chromatix.xml \
     vendor/pantech/ef71/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
     vendor/pantech/ef71/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
     vendor/pantech/ef71/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
@@ -147,6 +142,7 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/pantech/ef71/proprietary/vendor/etc/audio_output_policy.conf:system/vendor/etc/audio_output_policy.conf \
     vendor/pantech/ef71/proprietary/vendor/etc/msm_irqbalance.conf:system/vendor/etc/msm_irqbalance.conf \
+    vendor/pantech/ef71/proprietary/vendor/firmware/libpn548ad_fw.so:system/vendor/firmware/libpn548ad_fw.so \
     vendor/pantech/ef71/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
     vendor/pantech/ef71/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
     vendor/pantech/ef71/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
