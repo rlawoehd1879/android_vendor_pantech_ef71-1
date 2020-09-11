@@ -21,6 +21,7 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/bin/cnd:system/bin/cnd \
     vendor/pantech/ef71/proprietary/bin/cnss-daemon:system/bin/cnss-daemon \
     vendor/pantech/ef71/proprietary/bin/dpmd:system/bin/dpmd \
+    vendor/pantech/ef71/proprietary/bin/energy-awareness:system/bin/energy-awareness \
     vendor/pantech/ef71/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/pantech/ef71/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
     vendor/pantech/ef71/proprietary/bin/imscmservice:system/bin/imscmservice \
@@ -116,11 +117,13 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar \
     vendor/pantech/ef71/proprietary/framework/QtiTelephonyServicelibrary.jar:system/framework/QtiTelephonyServicelibrary.jar \
     vendor/pantech/ef71/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar \
+    vendor/pantech/ef71/proprietary/framework/com.qti.snapdragon.sdk.display.jar:system/framework/com.qti.snapdragon.sdk.display.jar \
     vendor/pantech/ef71/proprietary/framework/embmslibrary.jar:system/framework/embmslibrary.jar \
     vendor/pantech/ef71/proprietary/framework/imscmlibrary.jar:system/framework/imscmlibrary.jar \
     vendor/pantech/ef71/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
     vendor/pantech/ef71/proprietary/framework/rcsimssettings.jar:system/framework/rcsimssettings.jar \
     vendor/pantech/ef71/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
+    vendor/pantech/ef71/proprietary/lib/hw/sensors.msm8937.so:system/lib64/hw/sensors.msm8937.so \
     vendor/pantech/ef71/proprietary/lib/libOmxSwVdec.so:system/lib/libOmxSwVdec.so \
     vendor/pantech/ef71/proprietary/lib/libOmxSwVencMpeg4.so:system/lib/libOmxSwVencMpeg4.so \
     vendor/pantech/ef71/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
@@ -133,6 +136,7 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/lib/libstagefright_soft_flacdec.so:system/lib/libstagefright_soft_flacdec.so \
     vendor/pantech/ef71/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
     vendor/pantech/ef71/proprietary/lib64/hw/keystore.default.so:system/lib64/hw/keystore.default.so \
+    vendor/pantech/ef71/proprietary/lib64/hw/sensors.msm8937.so:system/lib64/hw/sensors.msm8937.so \
     vendor/pantech/ef71/proprietary/lib64/libOmxSwVdec.so:system/lib64/libOmxSwVdec.so \
     vendor/pantech/ef71/proprietary/lib64/libOmxSwVencMpeg4.so:system/lib64/libOmxSwVencMpeg4.so \
     vendor/pantech/ef71/proprietary/lib64/libOmxVpp.so:system/lib64/libOmxVpp.so \
@@ -725,9 +729,6 @@ PRODUCT_PACKAGES += \
     QtiTetherService \
     com.qualcomm.location \
     qcrilmsgtunnel \
-    colorservice \
-    ims \
-    imssettings \
     com.qti.dpmframework \
     com.qti.location.sdk \
     com.qualcomm.location.vzw_library \
