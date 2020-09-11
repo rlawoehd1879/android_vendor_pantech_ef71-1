@@ -707,7 +707,6 @@ PRODUCT_PACKAGES += \
     com.qualcomm.location.vzw_library \
     dpmapi \
     izat.xt.srv \
-    qcnvitems \
     qcrilhook \
     qti-vzw-ims-internal \
     tcmclient \
