@@ -123,14 +123,12 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
     vendor/pantech/ef71/proprietary/framework/rcsimssettings.jar:system/framework/rcsimssettings.jar \
     vendor/pantech/ef71/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
+    vendor/pantech/ef71/proprietary/framework/com.qualcomm.location.vzw_library.jar:system/framework/com.qualcomm.location.vzw_library.jar \
+    vendor/pantech/ef71/proprietary/framework/izat.xt.srv.jar:system/framework/izat.xt.srv.jar \
     vendor/pantech/ef71/proprietary/lib/hw/sensors.msm8937.so:system/lib64/hw/sensors.msm8937.so \
     vendor/pantech/ef71/proprietary/lib/libOmxSwVdec.so:system/lib/libOmxSwVdec.so \
     vendor/pantech/ef71/proprietary/lib/libOmxSwVencMpeg4.so:system/lib/libOmxSwVencMpeg4.so \
     vendor/pantech/ef71/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
-    vendor/pantech/ef71/proprietary/lib/libloc_pla.so:system/lib/libloc_pla.so \
-    vendor/pantech/ef71/proprietary/lib/libloc_stub.so:system/lib/libloc_stub.so \
-    vendor/pantech/ef71/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
-    vendor/pantech/ef71/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
     vendor/pantech/ef71/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/pantech/ef71/proprietary/lib/libqti_performance.so:system/lib/libqti_performance.so \
     vendor/pantech/ef71/proprietary/lib/libstagefright_soft_flacdec.so:system/lib/libstagefright_soft_flacdec.so \
@@ -140,8 +138,6 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/lib64/libOmxSwVdec.so:system/lib64/libOmxSwVdec.so \
     vendor/pantech/ef71/proprietary/lib64/libOmxSwVencMpeg4.so:system/lib64/libOmxSwVencMpeg4.so \
     vendor/pantech/ef71/proprietary/lib64/libOmxVpp.so:system/lib64/libOmxVpp.so \
-    vendor/pantech/ef71/proprietary/lib64/libloc_pla.so:system/lib64/libloc_pla.so \
-    vendor/pantech/ef71/proprietary/lib64/libloc_stub.so:system/lib64/libloc_stub.so \
     vendor/pantech/ef71/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
     vendor/pantech/ef71/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
     vendor/pantech/ef71/proprietary/lib64/libqti-iop.so:system/lib64/libqti-iop.so \
@@ -174,7 +170,6 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
     vendor/pantech/ef71/proprietary/vendor/lib/egl/libq3dtools_esx.so:system/vendor/lib/egl/libq3dtools_esx.so \
     vendor/pantech/ef71/proprietary/vendor/lib/hw/activity_recognition.msm8937.so:system/vendor/lib/hw/activity_recognition.msm8937.so \
-    vendor/pantech/ef71/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
     vendor/pantech/ef71/proprietary/vendor/lib/hw/gatekeeper.msm8937.so:system/vendor/lib/hw/gatekeeper.msm8937.so \
     vendor/pantech/ef71/proprietary/vendor/lib/hw/keystore.msm8937.so:system/vendor/lib/hw/keystore.msm8937.so \
     vendor/pantech/ef71/proprietary/vendor/lib/hw/sound_trigger.primary.msm8937.so:system/vendor/lib/hw/sound_trigger.primary.msm8937.so \
@@ -183,7 +178,6 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/vendor/lib/libApeSwDec.so:system/vendor/lib/libApeSwDec.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
-    vendor/pantech/ef71/proprietary/vendor/lib/libDRPlugin.so:system/vendor/lib/libDRPlugin.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libMpeg4SwEncoder.so:system/vendor/lib/libMpeg4SwEncoder.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libNimsWrap.so:system/vendor/lib/libNimsWrap.so \
@@ -215,13 +209,9 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libadsp_default_listener.so:system/vendor/lib/libadsp_default_listener.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
-    vendor/pantech/ef71/proprietary/vendor/lib/libalarmservice_jni.so:system/vendor/lib/libalarmservice_jni.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libaptX-1.0.0-rel-Android21-ARMv7A.so:system/vendor/lib/libaptX-1.0.0-rel-Android21-ARMv7A.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libaptXHD-1.0.0-rel-Android21-ARMv7A.so:system/vendor/lib/libaptXHD-1.0.0-rel-Android21-ARMv7A.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libaptXScheduler.so:system/vendor/lib/libaptXScheduler.so \
-    vendor/pantech/ef71/proprietary/vendor/lib/libasn1cper.so:system/vendor/lib/libasn1cper.so \
-    vendor/pantech/ef71/proprietary/vendor/lib/libasn1crt.so:system/vendor/lib/libasn1crt.so \
-    vendor/pantech/ef71/proprietary/vendor/lib/libasn1crtx.so:system/vendor/lib/libasn1crtx.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libaudioalsa.so:system/vendor/lib/libaudioalsa.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libaudiodevarb.so:system/vendor/lib/libaudiodevarb.so \
@@ -317,29 +307,17 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/vendor/lib/libfastcvadsp_stub.so:system/vendor/lib/libfastcvadsp_stub.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libflash_pmic.so:system/vendor/lib/libflash_pmic.so \
-    vendor/pantech/ef71/proprietary/vendor/lib/libflp.so:system/vendor/lib/libflp.so \
-    vendor/pantech/ef71/proprietary/vendor/lib/libgdtap.so:system/vendor/lib/libgdtap.so \
-    vendor/pantech/ef71/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libhwdaphal.so:system/vendor/lib/libhwdaphal.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
-    vendor/pantech/ef71/proprietary/vendor/lib/libizat_client_api.so:system/vendor/lib/libizat_client_api.so \
-    vendor/pantech/ef71/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libjpegdmahw.so:system/vendor/lib/libjpegdmahw.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
-    vendor/pantech/ef71/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
     vendor/pantech/ef71/proprietary/vendor/lib/liblistenjni.so:system/vendor/lib/liblistenjni.so \
     vendor/pantech/ef71/proprietary/vendor/lib/liblistensoundmodel2.so:system/vendor/lib/liblistensoundmodel2.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libllvm-glnext.so:system/vendor/lib/libllvm-glnext.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libllvm-qgl.so:system/vendor/lib/libllvm-qgl.so \
-    vendor/pantech/ef71/proprietary/vendor/lib/libloc_ext.so:system/vendor/lib/libloc_ext.so \
-    vendor/pantech/ef71/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
-    vendor/pantech/ef71/proprietary/vendor/lib/liblocationservice_glue.so:system/vendor/lib/liblocationservice_glue.so \
-    vendor/pantech/ef71/proprietary/vendor/lib/liblowi_client.so:system/vendor/lib/liblowi_client.so \
-    vendor/pantech/ef71/proprietary/vendor/lib/liblowi_wifihal.so:system/vendor/lib/liblowi_wifihal.so \
-    vendor/pantech/ef71/proprietary/vendor/lib/liblowi_wifihal_nl.so:system/vendor/lib/liblowi_wifihal_nl.so \
     vendor/pantech/ef71/proprietary/vendor/lib/liblqe.so:system/vendor/lib/liblqe.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libmm-disp-apis.so:system/vendor/lib/libmm-disp-apis.so \
@@ -456,7 +434,6 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/vendor/lib/libqti-iop-client.so:system/vendor/lib/libqti-iop-client.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libqti-wl.so:system/vendor/lib/libqti-wl.so \
-    vendor/pantech/ef71/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
     vendor/pantech/ef71/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
     vendor/pantech/ef71/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libsc-a2xx.so:system/vendor/lib/libsc-a2xx.so \
@@ -467,7 +444,6 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/vendor/lib/libseemore.so:system/vendor/lib/libseemore.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
-    vendor/pantech/ef71/proprietary/vendor/lib/libslimclient.so:system/vendor/lib/libslimclient.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libsmwrapper.so:system/vendor/lib/libsmwrapper.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libsubsystem_control.so:system/vendor/lib/libsubsystem_control.so \
@@ -477,16 +453,12 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/vendor/lib/libtm_interface.so:system/vendor/lib/libtm_interface.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libtrueportrait.so:system/vendor/lib/libtrueportrait.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libubifocus.so:system/vendor/lib/libubifocus.so \
-    vendor/pantech/ef71/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libvendorconn.so:system/vendor/lib/libvendorconn.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libvqzip.so:system/vendor/lib/libvqzip.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libwms.so:system/vendor/lib/libwms.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libwqe.so:system/vendor/lib/libwqe.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
-    vendor/pantech/ef71/proprietary/vendor/lib/libxt_native.so:system/vendor/lib/libxt_native.so \
-    vendor/pantech/ef71/proprietary/vendor/lib/libxtadapter.so:system/vendor/lib/libxtadapter.so \
-    vendor/pantech/ef71/proprietary/vendor/lib/libxtwifi_ulp_adaptor.so:system/vendor/lib/libxtwifi_ulp_adaptor.so \
     vendor/pantech/ef71/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/pantech/ef71/proprietary/vendor/lib/rfsa/adsp/libapps_mem_heap.so:system/vendor/lib/rfsa/adsp/libapps_mem_heap.so \
     vendor/pantech/ef71/proprietary/vendor/lib/rfsa/adsp/libdspCV_skel.so:system/vendor/lib/rfsa/adsp/libdspCV_skel.so \
@@ -715,8 +687,6 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/vendor/qcril.db:system/vendor/qcril.db
 
 PRODUCT_PACKAGES += \
-    libloc_api_v02 \
-    libloc_ds_api \
     libtime_genoff \
     libts_detected_face_hal \
     libts_face_beautify_hal \
