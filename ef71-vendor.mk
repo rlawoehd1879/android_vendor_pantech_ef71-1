@@ -55,6 +55,7 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/etc/cacert_location.pem:system/etc/cacert_location.pem \
     vendor/pantech/ef71/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
     vendor/pantech/ef71/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
+    vendor/pantech/ef71/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
     vendor/pantech/ef71/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
     vendor/pantech/ef71/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
     vendor/pantech/ef71/proprietary/etc/data/qmi_config.xml:system/etc/data/qmi_config.xml \
@@ -118,10 +119,13 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/etc/xtwifi.conf:system/etc/xtwifi.conf \
     vendor/pantech/ef71/proprietary/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar \
     vendor/pantech/ef71/proprietary/framework/QtiTelephonyServicelibrary.jar:system/framework/QtiTelephonyServicelibrary.jar \
+    vendor/pantech/ef71/proprietary/framework/ConnectivityExt.jar:system/framework/ConnectivityExt.jar \
     vendor/pantech/ef71/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar \
     vendor/pantech/ef71/proprietary/framework/com.qti.snapdragon.sdk.display.jar:system/framework/com.qti.snapdragon.sdk.display.jar \
+    vendor/pantech/ef71/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
     vendor/pantech/ef71/proprietary/framework/embmslibrary.jar:system/framework/embmslibrary.jar \
     vendor/pantech/ef71/proprietary/framework/imscmlibrary.jar:system/framework/imscmlibrary.jar \
+    vendor/pantech/ef71/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
     vendor/pantech/ef71/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
     vendor/pantech/ef71/proprietary/framework/rcsimssettings.jar:system/framework/rcsimssettings.jar \
     vendor/pantech/ef71/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
@@ -710,5 +714,6 @@ PRODUCT_PACKAGES += \
     qcrilhook \
     qti-vzw-ims-internal \
     tcmclient \
-    embms
+    ims\
+    imssettings
 
